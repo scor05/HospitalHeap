@@ -21,7 +21,6 @@ public class DriverPersonal {
         
         VectorHeap<Patient> queue = new VectorHeap<>();
         for (Patient p : pacientes) {
-            System.out.println(p.getName() + " " + p.getDiagnosis() + " " + p.getPriority());
             queue.enqueue(p);
         }
         System.out.println("-".repeat(50));
