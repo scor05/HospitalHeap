@@ -19,7 +19,7 @@ public class VectorHeap<E extends Comparable<E>> implements PriorityQueue<E> {
         } else {
             this.heap.add(e);
             for (int i = this.heap.size() - 1; i > 0; i--){
-                if (this.heap.get(i).compareTo(this.heap.get(i - 1)) > 0){
+                if (this.heap.get(i).compareTo(this.heap.get(i - 1)) < 0){
                     E aux = this.heap.get(i);
                     this.heap.set(i, this.heap.get(i - 1));
                     this.heap.set(i - 1, aux);
