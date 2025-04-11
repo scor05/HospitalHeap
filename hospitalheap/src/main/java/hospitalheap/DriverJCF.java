@@ -30,10 +30,15 @@ public class DriverJCF {
         System.out.print("Presione cualquier tecla para atender a un paciente (Ingrese 'S' para salir del programa.): \nR/ ");
         String input = sc.nextLine();
         while (!input.equals("S")) {
-            Patient p = queue.poll();
-            System.out.println("El paciente a atender es: " + p.getName() + ", con diagnóstico " + p.getDiagnosis() + " y prioridad " + p.getPriority());
-            System.out.print("Presione cualquier tecla para atender a otro paciente (Ingrese 'S' para salir del programa.): \nR/ ");
-            input = sc.nextLine();
+            if (queue.isEmpty()) {
+                System.out.println("Ya no hay ningún paciente por atender. Ingrese 'S' para salir del programa.");
+                input = sc.nextLine();
+            } else {
+                Patient p = queue.poll();
+                System.out.println("El paciente a atender es: " + p.getName() + ", con diagnóstico " + p.getDiagnosis() + " y prioridad " + p.getPriority());
+                System.out.print("Presione cualquier tecla para atender a otro paciente (Ingrese 'S' para salir del programa.): \nR/ ");
+                input = sc.nextLine();
+            } 
         }
     }
 

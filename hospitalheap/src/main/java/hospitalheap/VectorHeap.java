@@ -43,4 +43,8 @@ public class VectorHeap<E extends Comparable<E>> implements PriorityQueue<E> {
     public E peek() {
         return this.heap.get(0);
     }
+
+    public boolean isEmpty() {
+        return this.heap.isEmpty();
+    }
 }
