@@ -1,0 +1,30 @@
+Juan Perez,fractura de pierna,C
+Maria Ramirez,apendicitis,A
+Lorenzo Toledo,chikunguya,E
+Carmen Sarmientos,dolores de parto,B
+Luis Gonzales,infección urinaria,D
+Ana López,dolor abdominal severo,B
+Carlos Méndez,paro respiratorio,A
+Lucía Herrera,fiebre alta,C
+Pedro Cifuentes,accidente de tráfico,A
+Gloria Márquez,vómito constante,C
+Esteban Rivas,pérdida de conocimiento,A
+Nadia Torres,bronquitis aguda,C
+Fernando Salas,migraña,E
+Rosa Gutiérrez,sangrado nasal,D
+Javier Luna,convulsiones,A
+Patricia Ortega,dolor de pecho,B
+Matías Jiménez,caída desde altura,B
+Sofía Paredes,resfriado común,E
+Raúl Peña,infección ocular,D
+Camila Navarro,deshidratación severa,B
+Gabriel Luján,intoxicación alimentaria,B
+Inés Cardona,alergia severa,A
+Tomás Vega,esguince de tobillo,D
+Laura Domínguez,quemadura de segundo grado,B
+Daniel Fuentes,dolor lumbar,C
+Julieta Bravo,traumatismo craneal,A
+Andrés Barrios,presión arterial alta,C
+Valentina Robles,diarrea,D
+Sebastián Castro,dolor de garganta,E
+Isabela Medina,cólico renal,B
